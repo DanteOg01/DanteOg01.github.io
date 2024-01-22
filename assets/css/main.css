@@ -29,7 +29,21 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 	
-
+body, html {
+		height: 100%;
+		margin: 0;
+	}
+	
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+	}
+	
+	/* Additional styles for your homepage content can be added here */
+	
 body {
 	line-height: 1;
 }
